@@ -15,5 +15,5 @@ public class Board {
   public int y;
   public boolean isBlack = false;
   public boolean isWhite = false;
-  
+ 
 }
