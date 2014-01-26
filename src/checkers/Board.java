@@ -15,5 +15,8 @@ public class Board {
   public int y;
   public boolean isBlack = false;
   public boolean isWhite = false;
+ public void displayBoard(){
  
+  System.out.println("is this Square black? "+this.isBlack);
+ } 
 }

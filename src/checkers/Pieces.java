@@ -13,7 +13,10 @@ package checkers;
 public class Pieces {
     public int blackPieces = 12;
     public int whitePieces = 12;
+    public int totalPieces;
     
-    
-    
+    public void displayPieces(){
+        this.totalPieces = (blackPieces + whitePieces);
+     System.out.println("There is a total of "+ totalPieces + " pieces.");
+}
 }
