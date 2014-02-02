@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class GetWinRatio {
     String wins;
     String totalGames;
-    double winRatio;
+    private double winRatio;
     
     public void getWinRatio() {
         Scanner input = new Scanner(System.in);
@@ -37,7 +37,7 @@ public class GetWinRatio {
             System.out.println("Invalid number of total games");
             return;
         }
-        if(wins1 < totalGames1){
+        if(wins1 > totalGames1){
             System.out.println("Error");
             return;
         }

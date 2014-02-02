@@ -28,6 +28,8 @@ public class Checkers {
         dBoard.displayBoard();
         Pieces dPieces = new Pieces();
         dPieces.displayPieces();
+        GetWinRatio newRatio = new GetWinRatio();
+        newRatio.getWinRatio();
     }
     
     public void getName() {
