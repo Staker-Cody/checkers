@@ -42,7 +42,7 @@ public class GetWinRatio {
             return;
         }
         
-        winRatio = wins1/totalGames1;
+        winRatio = (wins1/totalGames1)*100;
         System.out.println(winRatio);
         
     }}
