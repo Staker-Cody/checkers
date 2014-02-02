@@ -15,13 +15,13 @@ import java.util.Scanner;
 public class GetWinRatio {
     String wins;
     String totalGames;
-    private double winRatio;
+  
     
     public void getWinRatio() {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter total wins: ");
         this.wins = input.next();
-        int wins1 = Integer.parseInt(wins);
+        double wins1 = Double.parseDouble(wins);
         
         if(wins1<0){
             System.out.println("Invalid number of wins");
@@ -31,7 +31,7 @@ public class GetWinRatio {
         input = new Scanner(System.in);
         System.out.println("Enter total games: ");
         this.totalGames = input.next();
-        int totalGames1 = Integer.parseInt(totalGames);
+        double totalGames1 = Double.parseDouble(totalGames);
         
         if(totalGames1 < 1){
             System.out.println("Invalid number of total games");
@@ -42,7 +42,7 @@ public class GetWinRatio {
             return;
         }
         
-        winRatio = (wins1/totalGames1)*100;
+         double winRatio = (wins1 / totalGames1) * 100;
         System.out.println(winRatio);
         
     }}
