@@ -24,6 +24,10 @@ public class Checkers {
         Checkers myGame = new Checkers();
         myGame.getName();
         myGame.displayHelp();
+        Board dBoard = new Board();
+        dBoard.displayBoard();
+        Pieces dPieces = new Pieces();
+        dPieces.displayPieces();
     }
     
     public void getName() {
@@ -34,6 +38,8 @@ public class Checkers {
     
     public void displayHelp() {
         System.out.println("\nWelcome " + this.name + "\n");
-        System.out.println(this.instructions);
+        System.out.println(this.instructions);       
     }
+
+
 }
