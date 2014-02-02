@@ -3,8 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-import java.util.Scanner;
+
 package checkers;
+
+import java.util.Scanner;
+
 /**
  *
  * @author Austin
@@ -42,4 +45,4 @@ public class GetWinRatio {
         winRatio = wins1/totalGames1;
         System.out.println(winRatio);
         
-    }
+    }}
