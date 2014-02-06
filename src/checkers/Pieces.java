@@ -32,7 +32,7 @@ public class Pieces {
     if(piecesLost1 > 12){
          System.out.println("You can only lose a Total of 12 Pieces");
          return 0;}
-     if(piecesLost1  < 1){
+     if(piecesLost1  < 1){ 
          System.out.println("You cannot gain any Pieces");
         return 0;}
     this.piecesLeft = 12 - piecesLost1; 
