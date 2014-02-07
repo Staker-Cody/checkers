@@ -6,8 +6,6 @@
 
 package checkers;
 
-import java.util.Scanner;
-
 /**
  *
  * @author Cody
@@ -24,8 +22,8 @@ public class Checkers {
       
         MainMenu menu = new MainMenu();
         menu.getName();
-        Board dBoard = new Board();
-        dBoard.displayBoard();
+        menu.menu();
+       
         Pieces Pieces = new Pieces();
         Pieces.displayPieces();
         GetWinRatio newRatio = new GetWinRatio();
